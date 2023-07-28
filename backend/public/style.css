@@ -1,0 +1,69 @@
+/* public/styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #d2f2fff6;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0.2, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-right: auto;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #4472b8;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: #e0138e;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

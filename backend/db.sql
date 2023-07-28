@@ -1,0 +1,12 @@
+CREATE DATABASE studtask;
+
+USE studtask;
+CREATE TABLE students (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  dob DATE NOT NULL,
+  course VARCHAR(255) NOT NULL,
+  year INT NOT NULL,
+  age INT NOT NULL
+);
+
