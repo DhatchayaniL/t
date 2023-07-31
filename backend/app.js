@@ -8,10 +8,8 @@ const studentRoutes = require('./routes/student');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// Serve static files from the 'public' folder
 app.use(express.static('public'));
 
-// Use the student routes
 app.use('/api/students', studentRoutes);
 
 app.listen(port, () => {

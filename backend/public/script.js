@@ -1,4 +1,3 @@
-// public/script.js
 document.getElementById('studentForm').addEventListener('submit', async (e) => {
   e.preventDefault();
   const formData = new FormData(e.target);

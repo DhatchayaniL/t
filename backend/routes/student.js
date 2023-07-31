@@ -1,9 +1,7 @@
-// routes/students.js
 const express = require('express');
 const router = express.Router();
 const db = require('../db');
 
-// Create a new student record
 router.post('/', (req, res) => {
   const { name, dob, course, year, age } = req.body;
   const query = 'INSERT INTO students (name, dob, course, year, age) VALUES (?, ?, ?, ?, ?)';
@@ -17,7 +15,6 @@ router.post('/', (req, res) => {
   });
 });
 
-// Fetch all student records
 router.get('/', (_, res) => {
   fetchStudents(res);
 });
